@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>마이사 계정 삭제 요청</title>
+<style>
+  :root {
+    --bg: #faf7f0; --fg: #1c1a16; --muted: #5d574c;
+    --line: #e2dccd; --accent: #8a6a1f; --card: #ffffff; --warn: #b3261e;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #14120e; --fg: #f0ece2; --muted: #a8a194;
+      --line: #322d24; --accent: #d8b45c; --card: #1c1913; --warn: #f2b8b5;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #14120e; --fg: #f0ece2; --muted: #a8a194;
+    --line: #322d24; --accent: #d8b45c; --card: #1c1913; --warn: #f2b8b5;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Apple SD Gothic Neo",
+                 "Malgun Gothic", "Noto Sans KR", sans-serif;
+    line-height: 1.75; font-size: 16px;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 48px 16px 96px; }
+  h1 { font-size: 28px; line-height: 1.3; margin: 0 0 8px; letter-spacing: -0.02em; }
+  .sub { color: var(--muted); font-size: 14px; margin: 0 0 36px; }
+  h2 { font-size: 19px; margin: 40px 0 12px; letter-spacing: -0.01em; }
+  ol { padding-left: 22px; }
+  li { margin: 8px 0; }
+  .muted { color: var(--muted); font-size: 14px; }
+  a { color: var(--accent); }
+  .box {
+    background: var(--card); border: 1px solid var(--line);
+    border-radius: 10px; padding: 18px 20px; margin: 20px 0;
+  }
+  .box.strong { border-left: 4px solid var(--accent); }
+  table { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 15px; }
+  th, td { border: 1px solid var(--line); padding: 10px 12px; text-align: left; vertical-align: top; }
+  th { background: var(--card); font-weight: 600; width: 38%; }
+  code {
+    background: var(--card); border: 1px solid var(--line);
+    border-radius: 5px; padding: 2px 6px; font-size: 14px;
+  }
+  footer { margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--line); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>마이사(MAISA) 계정 삭제 요청</h1>
+<p class="sub">앱 이름: 마이사(MAISA) · 개발사: 주식회사 더블유투마이스</p>
+
+<p>마이사 계정과 계정에 담긴 모든 데이터의 삭제를 요청하는 방법을 안내합니다.
+삭제는 <strong>되돌릴 수 없습니다.</strong></p>
+
+<h2>방법 1 — 앱에서 직접 삭제 (가장 빠름)</h2>
+<div class="box strong">
+  <ol style="margin:0">
+    <li>마이사 앱 실행 후 로그인</li>
+    <li>하단 <strong>프로필</strong> 탭 → 우측 상단 <strong>설정</strong></li>
+    <li><strong>회원 탈퇴</strong> 선택</li>
+    <li>안내 문구 확인 후 <strong>탈퇴하고 모든 데이터 삭제</strong> 누르기</li>
+  </ol>
+</div>
+<p>이 경로로 요청하면 계정과 데이터가 <strong>즉시</strong> 삭제되고 자동으로 로그아웃됩니다.</p>
+
+<h2>방법 2 — 이메일로 요청</h2>
+<p>앱을 이미 삭제했거나 로그인할 수 없는 경우 이메일로 요청해 주세요.</p>
+<div class="box">
+  <p style="margin:0 0 10px">
+    받는 사람 <a href="mailto:teammice01@gmail.com?subject=%5B%EB%A7%88%EC%9D%B4%EC%82%AC%5D%20%EA%B3%84%EC%A0%95%20%EC%82%AD%EC%A0%9C%20%EC%9A%94%EC%B2%AD">teammice01@gmail.com</a><br>
+    제목 <code>[마이사] 계정 삭제 요청</code>
+  </p>
+  <p style="margin:0" class="muted">
+    본문에 <strong>가입하신 이메일 주소</strong>와 <strong>닉네임</strong>을 적어 주세요.
+    본인 확인을 위해 가입한 이메일 주소에서 보내 주셔야 합니다.
+  </p>
+</div>
+<p>영업일 기준 <strong>3일 이내</strong>에 처리하고, 처리 결과를 회신합니다.</p>
+
+<h2>삭제되는 데이터</h2>
+<table>
+  <tr><th>삭제 항목</th><td>
+    계정 정보(이메일, 닉네임, 프로필 사진, 전화번호)<br>
+    전시관 방문 기록과 관람 동선<br>
+    수집한 캐릭터, 도감, 퀴즈 참여 기록<br>
+    작성한 게시글·사진·댓글·전시관 리뷰<br>
+    주고받은 쪽지<br>
+    푸시 알림 토큰
+  </td></tr>
+  <tr><th>보존되는 항목</th><td>
+    관련 법령이 보존을 요구하는 기록이 있는 경우, 해당 법령이 정한 기간 동안
+    다른 정보와 분리해 보관한 뒤 파기합니다.<br>
+    <span class="muted">개인을 알아볼 수 없도록 처리한 통계 자료는 삭제 대상이 아닙니다.</span>
+  </td></tr>
+  <tr><th>보존 기간</th><td>
+    위 법령상 보존 의무가 있는 경우를 제외하고 <strong>즉시 파기</strong>하며,
+    별도의 유예 기간을 두지 않습니다.
+  </td></tr>
+</table>
+
+<h2>참고</h2>
+<ul class="muted">
+  <li>탈퇴 후에는 같은 이메일로 다시 가입할 수 있지만, 이전 기록은 복구되지 않습니다.</li>
+  <li>기기에서 앱만 삭제하는 것으로는 계정이 삭제되지 않습니다.</li>
+</ul>
+
+<footer>
+  <p class="muted" style="margin:0">
+    마이사(MAISA) · 주식회사 더블유투마이스 ·
+    문의 <a href="mailto:teammice01@gmail.com">teammice01@gmail.com</a><br>
+    <a href="./privacy.html">개인정보처리방침</a> ·
+    <a href="./index.html">전체 문서 목록</a>
+  </p>
+</footer>
+
+</div>
+</body>
+</html>
